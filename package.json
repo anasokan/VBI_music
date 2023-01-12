@@ -1,0 +1,32 @@
+{
+  "name": "vbi music app",
+  "version": "100.0.000",
+  "description": "poc",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "poc"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.20.1",
+    "consul": "^0.37.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "express-queue": "0.0.12",
+    "pg": "^8.8.0",
+    "prom-client": "^11.5.3",
+    "redlock": "^5.0.0-beta.1"
+  },
+  "devDependencies": {
+    "husky": "^4.0.10",
+    "jest": "^25.4.0",
+    "jest-html-reporter": "^3.4.1",
+    "jest-junit": "^12.2.0",
+    "supertest": "^6.0.1"
+  }
+}

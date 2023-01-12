@@ -1,0 +1,65 @@
+# Remove some patch or backup files from SCM
+syntax: glob
+*~
+*.orig
+*.rej
+**/.DS_Store/
+
+#IntelliJ
+.idea/
+*.iml
+
+# VS Code 
+.vscode/
+
+
+# personal automation
+*.local.*
+*.user.bat
+
+# temporary files
+temp/**
+
+
+#apk
+*.apk
+
+# Eclipse config files - do not ignore. Not anymore, must maven generated files when importing into eclipse.
+.project
+.classpath
+.settings/
+
+ssbackup.*
+
+#jaxb-generated
+jaxb/
+
+#log files
+*.log
+*.obj
+# Test files
+*.pyc
+
+.vagrant
+.docker
+.govmomi
+.config
+*.exec
+**/test-reports/*
+**/results/*
+
+# Docs
+.allmark
+
+#*.db
+.metadata/*
+
+
+# Coverage
+.nyc_output
+.coverage
+.envrc
+.chattest
+coverage
+
+package-lock.json
