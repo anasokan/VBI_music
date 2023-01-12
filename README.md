@@ -1,7 +1,7 @@
 # VBI Music app
 This repo provides the VBI music app backend.
 
-##Pre-requistes:
+## Pre-requistes:
 1. Have nodejs installed
 2. Have postgres installed and ready.
 
